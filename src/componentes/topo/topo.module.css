@@ -1,0 +1,29 @@
+/* Estilizando o Topo */
+
+#topo{
+    border: 1px solid black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.imgLogo {
+    height: 80px;
+    width: auto;
+}
+
+.navLink{
+    display: flex;
+    gap: 20px;
+}
+
+.linkTopo{
+    padding: 30px;
+    text-decoration: none;
+    font-size: 18px;
+
+    &:hover{
+        background-color: pink;
+    }
+}

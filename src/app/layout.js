@@ -1,4 +1,5 @@
 import "./globals.css";
+import Topo from "@/componentes/topo";
 
 
 
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body>
+        <Topo />
         {children}
       </body>
     </html>
