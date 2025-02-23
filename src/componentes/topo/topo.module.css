@@ -1,7 +1,6 @@
 /* Estilizando o Topo */
 
 #topo{
-    border: 1px solid black;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -15,15 +14,21 @@
 
 .navLink{
     display: flex;
-    gap: 20px;
+    
 }
 
 .linkTopo{
     padding: 30px;
     text-decoration: none;
     font-size: 18px;
+    color: purple;
 
     &:hover{
         background-color: pink;
+        color: white;
+        
+    }
+    &:focus{
+        background-color: pink; 
     }
 }
