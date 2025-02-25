@@ -49,15 +49,15 @@ export default function Sobre(){
                 <h3>Como nós trabalhamos</h3>
                 <div id={estilos.boxCards}>
                 <div className={estilos.card}>
-                    <h4>Você Agenda...</h4>
                     <LuCalendarClock className={estilos.icon}/>
+                    <h4>Você Agenda...</h4>
                     <p>
                         Você entra em contato e juntas escolhemos o horário que melhor se encaixa na  sua rotina.
                     </p>
                 </div>
                 <div className={estilos.card}>
-                    <h4>...Nós Atendemos</h4>
                     <TbHeartHandshake className={estilos.icon}/>
+                    <h4>...Nós Atendemos</h4>
                     <p>
                         No dia e hora marcados você receberá um atendimento personalizado, de qualidade com efeitos visíveis já no primeiro momento.
                     </p>

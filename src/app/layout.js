@@ -1,5 +1,6 @@
 import "./globals.css";
 import Topo from "@/componentes/topo";
+import Rodape from "@/componentes/rodape";
 
 
 
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
       <body>
         <Topo />
         {children}
+        <Rodape />
       </body>
     </html>
   );
