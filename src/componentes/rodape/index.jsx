@@ -6,12 +6,18 @@ import Link from 'next/link';
 // Importando Imagem
 import Logo from '../../../public/logotipo.jpg';
 
+import { LiaPhoneVolumeSolid } from "react-icons/lia";
+import { GrMapLocation } from "react-icons/gr";
+import { CgInstagram } from "react-icons/cg";
+import { PiWhatsappLogoDuotone } from "react-icons/pi";
+import { PiFacebookLogoDuotone } from "react-icons/pi";
+
 export default function Rodape(){
     return(
         <footer id={estilos.rodape}>
             <section id={estilos.containerCards}>
                 <div className={estilos.card}>
-                    <Image src={Logo} alt="Imagem do logotipo da Empresa"/>
+                    <Image src={Logo} id={estilos.imgLogo} alt="Imagem do logotipo da Empresa"/>
                     <p>
                         "Cuidando do seu corpo, celebrando sua essência."
                     </p>
@@ -21,17 +27,15 @@ export default function Rodape(){
                 </div>
                 <div className={estilos.card}>
                     <h4>Links Rápidos</h4>
-                    <nav className={estilos.navLink}>
-                        <Link href="/" className={estilos.linkTopo}>Home</Link>
-                        <Link href="/sobre" className={estilos.linkTopo}>Sobre</Link>
-                        <Link href="/servicos" className={estilos.linkTopo}>Serviços</Link>
-                        <Link href="/contato" className={estilos.linkTopo}>Contato</Link>
-                    </nav>
+                    <Link href="/" className={estilos.link}>Home</Link>
+                    <Link href="/sobre" className={estilos.link}>Sobre</Link>
+                    <Link href="/servicos" className={estilos.link}>Serviços</Link>
+                    <Link href="/contato" className={estilos.link}>Contato</Link>
                 </div>
                 <div className={estilos.card}>
                     <h4>Contato</h4>
                     <div>
-                        <h5>Endereço</h5>
+                        <GrMapLocation className={estilos.icons}/>
                         <p>
                             Rua Lincoln de Almeida Peçanha, 204 - Sala1 - Vila ISabel - Três Rios - RJ (
                                 No mini Shopping Vila Nova - ao lado da Praça Arsonval Macedo.
@@ -39,14 +43,22 @@ export default function Rodape(){
                         </p>
                      </div>
                      <div>
-                        <h5>Telefones</h5>
+                        <LiaPhoneVolumeSolid className={estilos.icons}/>
                         <p>(24) 98822-2441</p>
                         <p>(24) 2252-9607</p>
                      </div>
                 </div>
-                <div className={estilos.card}></div>
+                <div className={estilos.card}>
+                    <h4>Siga-nos</h4>
+
+                    <a target='_blank' href='https://www.instagram.com/espaco_denisewerneck?igsh=MWE1bzFseDIzaHV6Mg== '><CgInstagram className={estilos.icons}/></a>
+                    <a target='_blank' href='https://api.whatsapp.com/send?phone=5524988222441&text=Ol%C3%A1!%20deixe%20sua%20mensagem%20em%20te%20respondo%20assim%20que%20poss%C3%ADvel.'><PiWhatsappLogoDuotone className={estilos.icons} /></a>
+
+                </div>
             </section>
-            <p>Copyright © 2025 - Todos os direitos reservados</p>
+
+            
+            <p id={estilos.copy}>Copyright © 2025 - Todos os direitos reservados</p>
         </footer>
     );
 };
