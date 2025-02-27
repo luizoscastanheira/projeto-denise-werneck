@@ -123,3 +123,59 @@
     font-size: 100px;
     
 }
+
+/* Área de Responsividade */
+
+/* Smartphones menores */
+@media (max-width: 480px) {
+    .boxTexto{
+        
+        & h1 {
+            font-size: 35px;
+        }
+    }
+    /* Div bannerTexto  */
+    #bannerTexto{
+    
+        & h2 {
+            font-size: 25px;
+        }
+
+        & p{
+            font-size: 14px;
+            color: gray;
+        }
+    }
+
+    #imgBox{
+        width: 300px;
+        height: auto;
+        
+    }
+
+    #boxTextoSobre{
+        width: 300px;
+        & h3{
+            font-size: 20px;
+        }
+        
+    }
+
+    .card{
+        gap:10px;
+        width: 300px;
+        justify-content: center;
+        & h4 {
+            
+            font-size: 14px;
+            padding: 10px;
+        }
+        
+    }
+    
+    .icon{
+        font-size: 50px;
+        
+    }
+
+}
