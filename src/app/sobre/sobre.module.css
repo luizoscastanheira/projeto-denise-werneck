@@ -165,6 +165,8 @@
         gap:10px;
         width: 300px;
         justify-content: center;
+        align-items: center;
+        
         & h4 {
             
             font-size: 14px;

@@ -34,6 +34,13 @@
     }
 }
 
+.telefone{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: purple;
+}
+
 
 /* Área de Responsividade */
 
@@ -51,6 +58,11 @@
     .linkTopo{
         padding: 15px;
         font: 14px;
+    }
+
+    #boxTelefones{
+        display: flex;
+        gap: 20px;
     }
 
   }

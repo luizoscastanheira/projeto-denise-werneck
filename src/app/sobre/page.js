@@ -39,7 +39,7 @@ export default function Sobre(){
                     Sendo uma mulher de fé e oração, senti a influência do Espírito Santo me indicando o caminho de divulgar meu trabalho. Comecei com mil planfletos que, com a foco, força e fé, distribuí eu mesma no meu bairro e entorno... Sim! Deu certo! E comecei a receber ligações perguntando sobre os serviços.
                     </p>
                     <p>
-                    O espaço do lar não comportava mais os atendimento, meu marido adquiriu e presenteou-me com minha primeira sala comercial na qual até hoje atendo uma clientela que tem crescido de forma constante ao ponto de no ano de 2024 eu ser agraciada com o prêmio Ebritec como melhor espaço de estátcia da cidade de Três Rios.
+                    O espaço do lar não comportava mais os atendimento, meu marido adquiriu e presenteou-me com minha primeira sala comercial na qual até hoje atendo uma clientela que tem crescido de forma constante ao ponto de no ano de 2024 eu ser agraciada com o prêmio Ebritec como melhor espaço de estética da cidade de Três Rios.
                     </p>
                 </div>
                 

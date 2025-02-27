@@ -53,6 +53,7 @@
         
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     & h4{
         margin-bottom: 5px;
@@ -70,16 +71,8 @@
 
 /* Smartphones menores */
 @media (max-width: 480px) {
-    #imgLogo {
-        width: 80%;
-        
-
-    }
-
-    #containerCards{
-        
-        
-    }
+    
+    
 
 
   }

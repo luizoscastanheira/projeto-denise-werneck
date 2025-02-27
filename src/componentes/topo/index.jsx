@@ -16,9 +16,9 @@ export default function Topo(){
             <Link href="/servicos" className={estilos.linkTopo}>Serviços</Link>
             <Link href="/contato" className={estilos.linkTopo}>Contato</Link>
             </nav>
-            <div>
-                <p>(24) 98822-2441</p>
-                <p>(24) 2252-9607</p>
+            <div id={estilos.boxTelefones}>
+                <p><a href='tel:+5524988222441' className={estilos.telefone}>(24) 98822-2441</a></p>
+                <p><a href='tel+55242222529607' className={estilos.telefone}>(24) 2252-9607</a></p>
             </div>
         </header>
     );
