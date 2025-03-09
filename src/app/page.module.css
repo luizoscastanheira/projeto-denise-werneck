@@ -1,0 +1,64 @@
+/* Estilizando a sectionBanner */
+
+#sectionBanner{
+    width: 100%;
+    height: 100vh;
+    background: url('../../public/bannerSorridente.png') fixed;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#boxTextoBanner{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0, 0.2);
+    padding: 30px;
+}
+
+/* Estilizando sectionFaixa */
+#sectionFaixa{
+    width: 100%;
+    height: 50vh;
+        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 2px 2px #F8bbd0;
+}
+
+
+/* Estilizanso a sectionProcedimento*/
+
+#sectionProcedimentos {
+    width: 100%;
+    height: 100vh;
+    background-color: #F8bbd0;
+}
+
+#boxCards{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+.card{
+    background-color: #FFFF;
+
+    width: 300px;
+    
+}
