@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import estilos from "./page.module.css";
 
 import { TbMassage } from "react-icons/tb";
@@ -47,6 +48,11 @@ export default function Home() {
         
       </section>
 
+      <section id={estilos.sectionFaixaServicos}>
+        <Link href="/servicos" className={estilos.linkFaixaServicos}>Veja Todos os Serviços</Link>
+        <Link href="/contato" className={estilos.linkFaixaServicos}>Fale Comigo</Link>
+      </section>
+
       <section id={estilos.sectionBeneficios}>
         <div className={estilos.boxBeneficios}>
           <h3>Benefícios</h3>
@@ -55,16 +61,29 @@ export default function Home() {
           </p>
           <h4>Transforme-se:</h4>
           <ul>
-            <li><span>Melhora da Autoestima:</span> Sinta-se bem consigo mesmo ao ver sua aparência melhorar.</li>
-            <li><span>Aparência Rejuvenescida:</span> Desfrute de uma pele mais jovem e radiante.</li>
-            <li><span>Redução de Medidas:</span>Alcance a forma desejada com tratamentos eficazes e seguros.</li>
-            <li><span>Saúde da Pele:</span>Cuide da sua pele, deixando-a mais saudável e vibrante.</li>
+            <li><span className={estilos.spanBeneficios}>Melhora da Autoestima: </span>Sinta-se bem consigo mesma ao ver sua aparência como desejar.</li>
+            <li><span className={estilos.spanBeneficios}>Aparência Rejuvenescida: </span>Desfrute de uma pele mais jovem e radiante.</li>
+            <li><span className={estilos.spanBeneficios}>Redução de Medidas: </span>Alcance a forma desejada com tratamentos eficazes e seguros.</li>
+            <li><span className={estilos.spanBeneficios}>Saúde da Pele: </span>Cuide da sua pele, deixando-a mais saudável e vibrante.</li>
           </ul>
         </div>
         <div className={estilos.boxBeneficios}>
           <Image src= {imgBeneficios} alt="Imagem de mulher sendo atendida em estética corporal." className={estilos.imgBeneficios}/>
         </div>
 
+      </section>
+
+      <section id={estilos.sectionFaleConosco}>
+        <div>
+          <h4>Fale Comigo: <a href="tel:+552498822442" className={estilos.linkFaleConosco}>(24) 9882-2442</a> ou <a href="tel:+552422529607" className={estilos.linkFaleConosco}>(24) 2252-9607</a></h4>
+          <p>
+            Sua beleza natural será realçada com os cuidados que tenho para você.
+          </p>
+        </div>
+        <div>
+          <Link href="/contato" className={estilos.link}>Fale Comigo</Link>
+        </div>
+        
       </section>
     </main>
   );

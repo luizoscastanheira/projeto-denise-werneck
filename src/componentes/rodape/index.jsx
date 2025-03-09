@@ -22,7 +22,7 @@ export default function Rodape(){
                         "Cuidando do seu corpo, celebrando sua essência."
                     </p>
                     <p>
-                        Faça-nos uma visita e veja tudo que o Espaço Denise Werneck tem a te oferecer. Presentei-se!
+                        Agende uma visita e veja tudo que o Espaço Denise Werneck tem a te oferecer. Presentei-se!
                     </p>
                 </div>
                 <div className={estilos.card}>

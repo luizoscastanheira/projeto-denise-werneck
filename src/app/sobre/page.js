@@ -15,12 +15,12 @@ export default function Sobre(){
             </div>
             <div id={estilos.bannerTexto}>
                 <h2>Conheça o Espaço Denise Werneck</h2>
-                <p>"Cuidamos do seu corpo, celebramos sua essência."</p>
+                <p>"Cuidando do seu corpo, celebrando sua essência."</p>
             </div>
             <div id={estilos.textoSobre}>
                 <Image id={estilos.imgBox} src={fotoSobre} alt="Foto da Proprietária"/>
                 <div id={estilos.boxTextoSobre}>
-                    <h3>Nossa História</h3>
+                    <h3>Minha História</h3>
                     <h4>Eu sou Denise Werneck! Esse é o nosso Espaço!</h4>
 
                     <p>
@@ -46,7 +46,7 @@ export default function Sobre(){
             </div>
 
             <div id={estilos.divComoTrabalhamos}>
-                <h3>Como nós trabalhamos</h3>
+                <h3>Como Eu Trabalho</h3>
                 <div id={estilos.boxCards}>
                 <div className={estilos.card}>
                     <LuCalendarClock className={estilos.icon}/>
@@ -57,7 +57,7 @@ export default function Sobre(){
                 </div>
                 <div className={estilos.card}>
                     <TbHeartHandshake className={estilos.icon}/>
-                    <h4>...Nós Atendemos</h4>
+                    <h4>...Eu te Atendendo</h4>
                     <p>
                         No dia e hora marcados você receberá um atendimento personalizado, de qualidade com efeitos visíveis já no primeiro momento.
                     </p>
