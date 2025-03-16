@@ -1,0 +1,49 @@
+/* Estilizando página contatos */
+
+/* Estilizando o banner  */
+#boxBanner{
+    width: 100%;
+    height: 50vh;
+    background-color: #F06292;
+    color: #FFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxBase{
+    border: solid 1px red;
+
+    padding: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content:space-around;
+    align-items:flex-start;
+
+}
+
+#boxFaleComigo{
+    border: solid 1px blue;
+    width: 300px;
+    padding-bottom: 30px;
+
+    text-align: center;
+
+
+}
+
+#imgBoxFaleComigo{
+    width: 100%;
+    height: auto;
+}
+
+
+#boxForm{
+    border: solid 1px black;
+
+    width: 500px;
+    
+}

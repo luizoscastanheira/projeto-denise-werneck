@@ -25,12 +25,12 @@
     color: purple;
 
     &:hover{
-        background-color: pink;
+        background-color: #F06292;
         color: white;
         
     }
     &:focus{
-        background-color: pink; 
+        background-color: #F06292; 
         color: white;
     }
 }

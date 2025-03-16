@@ -23,7 +23,7 @@
     padding: 10px;
     color: gray;
     &:hover{
-        background-color: palevioletred;
+        background-color: #F06292;
         color: whitesmoke;
         cursor: pointer;
     }
