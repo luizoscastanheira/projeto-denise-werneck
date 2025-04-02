@@ -4,7 +4,7 @@
 /* Div bannerImagem */
 #bannerImagem{
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: url('../../../public/bannerSobre.png') center;
 }
 
