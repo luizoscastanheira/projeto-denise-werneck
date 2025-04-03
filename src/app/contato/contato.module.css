@@ -9,7 +9,6 @@
     background-image: url('../../../public//bannerRostoMassagem.png');
     background-size: cover;
     
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,14 +18,13 @@
     }
 }
 
-
 #boxTextoBanner{
     font-size: 30px;
     width: 100%;
     text-align: center;
     color: white;
     background-color: rgba(0,0,0, 0.2);
-    padding: 30px;
+   
 }
 
 
@@ -46,8 +44,6 @@
     padding-bottom: 30px;
 
     text-align: center;
-
-
 }
 
 #imgBoxFaleComigo{
@@ -55,9 +51,7 @@
     height: auto;
 }
 
-
 #boxForm{
-    border: solid 1px gray;
     width: 500px;
     height: 500px;
     text-align: center;
@@ -71,6 +65,15 @@
     
 }
 
+#boxTexto{
+    & h2{
+        padding: 10px;
+    }
+    & p{
+        padding: 10px;
+    }
+}
+
 #boxZap{
     display: flex;
     flex-direction: column;
@@ -81,4 +84,21 @@
 
 .icons{
     font-size: 100px;
+}
+
+/* Estilizando Mapa */
+
+#containerMapa{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & h3{
+        max-width: 1024px;
+        padding: 10px;
+    }
+}
+
+#mapa{
+    border: solid 3px black;
 }

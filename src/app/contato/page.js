@@ -1,11 +1,9 @@
 import estilos from "./contato.module.css";
 import Image from "next/image";
-import Link from "next/link";
 
 import fotoDenise from "../../../public/fotoDenise1.jpg";
 
 import { GrMapLocation } from "react-icons/gr";
-import { CgInstagram } from "react-icons/cg";
 import { PiWhatsappLogoDuotone } from "react-icons/pi";
 
 export default function Contatos(){
@@ -31,7 +29,7 @@ export default function Contatos(){
                 </div>    
                 <div id={estilos.boxForm}>
                     <div id={estilos.boxTexto}>
-                        <h1> Envie-me uma mensagem.</h1>
+                        <h2> Envie-me uma mensagem.</h2>
                         <p>
                             Estou sempre pronta para atendê-la com qualidade e resultados.
                         </p>
@@ -56,7 +54,14 @@ export default function Contatos(){
                 </div>
             </div>
 
+            <div id={estilos.containerMapa}>
+                <h3>É fácil me encontar, estou no Mni Shopping Vila Nova - ao lado da Praça Arsonval Macedo.</h3>
+                <iframe  id={estilos.mapa} src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d274.7411813876413!2d-43.1934724340396!3d-22.10835441802244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1743721462719!5m2!1spt-BR!2sbr" width="80%" height="400"></iframe>
+            </div>
+
         </section>
+
+        
     );
     
 };
