@@ -1,21 +1,15 @@
 /* Estilizando página contatos */
 
 /* Estilizando o banner  */
-#boxBanner{
+#sectionBanner{
     width: 100%;
     height: 70vh;
-    background-color: #F06292;
-    color: #FFFF;
-    background-image: url('../../../public//bannerRostoMassagem.png');
+    background: url('../../../public/bannerRostoMassagem.png') fixed ;
     background-size: cover;
-    
+
     display: flex;
-    justify-content: center;
     align-items: center;
-    
-    & h1{
-        font-size: 42px;
-    }
+    justify-content: center;
 }
 
 #boxTextoBanner{
@@ -24,7 +18,7 @@
     text-align: center;
     color: white;
     background-color: rgba(0,0,0, 0.2);
-   
+    padding: 30px;
 }
 
 
@@ -92,6 +86,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    gap: 15px;
     align-items: center;
     & h3{
         max-width: 1024px;
@@ -99,6 +94,6 @@
     }
 }
 
-#mapa{
+.mapa{
     border: solid 3px black;
 }

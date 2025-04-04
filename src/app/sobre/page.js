@@ -1,6 +1,10 @@
 import Image from 'next/image';
+import Link from 'next/link';
+
 import estilos from './sobre.module.css';
+
 import fotoSobre from '../../../public/fotoSobre.png';
+
 import { LuCalendarClock } from "react-icons/lu";
 import { TbHeartHandshake } from "react-icons/tb";
 
@@ -8,11 +12,11 @@ import { TbHeartHandshake } from "react-icons/tb";
 export default function Sobre(){
     return(
         <section id={estilos.secaoSobre}>
-            <div id={estilos.bannerImagem}>
-                <div className={estilos.boxTexto}>
-                    <h1>Sobre Nós</h1>
+            <section id={estilos.sectionBanner}>
+                <div id={estilos.boxTextoBanner}>
+                    <h1>Sobre</h1>
                 </div>
-            </div>
+            </section>
             <div id={estilos.bannerTexto}>
                 <h2>Conheça o Espaço Denise Werneck</h2>
                 <p>"Cuidando do seu corpo, celebrando sua essência."</p>
@@ -65,6 +69,11 @@ export default function Sobre(){
                 </div>
                 
             </div>
+
+            <section id={estilos.sectionFaixaServicos}>
+                <Link href="/servicos" className={estilos.linkFaixaServicos}>Veja Todos os Serviços</Link>
+                <Link href="/contato" className={estilos.linkFaixaServicos}>Fale Comigo</Link>
+            </section>
 
         </section>
 

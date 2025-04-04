@@ -1,11 +1,25 @@
 /* Seção Banner */
 
 
-/* Div bannerImagem */
-#bannerImagem{
+/* Estilizando o banner  */
+#sectionBanner{
     width: 100%;
     height: 70vh;
-    background: url('../../../public/bannerSobre.png') center;
+    background: url('../../../public/bannerRostoMassagem.png') fixed ;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#boxTextoBanner{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0, 0.2);
+    padding: 30px;
 }
 
 .boxTexto{
@@ -123,6 +137,41 @@
     font-size: 100px;
     
 }
+
+
+/* Estilizando a sectionFaixaServicos */
+
+#sectionFaixaServicos{
+    width: 100%;
+    height: 30vh;
+    margin-top: 30px;
+           
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:30px;
+    justify-content: center;
+
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+.linkFaixaServicos{
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+    border: solid 1px black;
+    padding: 30px 50px;
+    &:hover{
+        color: #FFFF;
+        background-color: #c2185b;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px rgb(102, 43, 43);
+    }
+}
+
+
 
 /* Área de Responsividade */
 

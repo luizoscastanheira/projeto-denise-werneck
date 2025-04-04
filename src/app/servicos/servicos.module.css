@@ -1,0 +1,73 @@
+/* Estilizando a página Serviços */
+
+/* Estilizando a Seção Banner */
+#sectionBanner{
+    width: 100%;
+    height: 70vh;
+    background: url('../../../public/bannerRostoMassagem.png') fixed ;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#boxTextoBanner{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0, 0.2);
+    padding: 30px;
+}
+
+/* Estilizando a sectionProcedimento*/
+
+#sectionProcedimentos {
+    width: 100%;
+    min-height: 150vh;
+    background-color: #F8bbd0;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.iconProcedimentos{
+    font-size: 50px;
+}
+
+.cardParagrafo{
+    color: #808080;
+}
+
+
+.card{
+    
+    background-color: #FFFF;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    font-size: 18px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+
+    &:hover {
+        cursor: pointer;
+        color: #FFFF;
+        background-color: #c2185b;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px rgb(102, 43, 43);
+
+        & p{
+            color: #FFFF;
+        }
+    }
+}
