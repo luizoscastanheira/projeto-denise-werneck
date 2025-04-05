@@ -31,7 +31,7 @@ export default function Servicos(){
             </section>
 
             <section id={estilos.sectionFaixaServicos}>
-                <Link href="/contato" className={estilos.linkFaixaServicos}>Fale Comigo</Link>
+                <Link href="/contato" className={estilos.linkFaixaServicos}>Fale Comigo - Agende</Link>
             </section>
 
     </section>

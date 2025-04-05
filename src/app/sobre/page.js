@@ -72,7 +72,7 @@ export default function Sobre(){
 
             <section id={estilos.sectionFaixaServicos}>
                 <Link href="/servicos" className={estilos.linkFaixaServicos}>Veja Todos os Serviços</Link>
-                <Link href="/contato" className={estilos.linkFaixaServicos}>Fale Comigo</Link>
+                <Link href="/contato" className={estilos.linkFaixaServicos}>Fale Comigo - Agende</Link>
             </section>
 
         </section>

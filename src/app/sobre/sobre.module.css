@@ -177,6 +177,13 @@
 
 /* Smartphones menores */
 @media (max-width: 480px) {
+    /* Estilizando o banner  */
+    #sectionBanner{
+        
+        background-position: center;
+
+    }
+
     .boxTexto{
         
         & h1 {

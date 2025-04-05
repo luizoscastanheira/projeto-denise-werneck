@@ -22,8 +22,7 @@ export default function Home() {
         </section>
 
       <section id={estilos.sectionProcedimentos}>
-        
-        
+                
           <div className={estilos.card}>
             <FaHandHoldingWater className={estilos.iconProcedimentos} />
             <h3>Estética Capilar</h3>
@@ -50,7 +49,7 @@ export default function Home() {
 
       <section id={estilos.sectionFaixaServicos}>
         <Link href="/servicos" className={estilos.linkFaixaServicos}>Veja Todos os Serviços</Link>
-        <Link href="/contato" className={estilos.linkFaixaServicos}>Fale Comigo</Link>
+        <Link href="/contato" className={estilos.linkFaixaServicos}>Fale Comigo - Agende</Link>
       </section>
 
       <section id={estilos.sectionBeneficios}>
@@ -72,7 +71,7 @@ export default function Home() {
         </div>
 
       </section>
-
+      
       <section id={estilos.sectionFaleConosco}>
         <div>
           <h4>Fale Comigo: <a href="tel:+552498822442" className={estilos.linkFaleConosco}>(24) 9882-2442</a> ou <a href="tel:+552422529607" className={estilos.linkFaleConosco}>(24) 2252-9607</a></h4>
@@ -81,7 +80,7 @@ export default function Home() {
           </p>
         </div>
         <div>
-          <Link href="/contato" className={estilos.link}>Fale Comigo</Link>
+          <Link href="/contato" className={estilos.link}>Fale Comigo - Agende</Link>
         </div>
         
       </section>

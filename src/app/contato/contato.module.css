@@ -97,3 +97,17 @@
 .mapa{
     border: solid 3px black;
 }
+
+
+/* Área de Responsividade */
+
+/* Smartphones menores */
+@media (max-width: 480px) {
+
+    /* Estilizando a sectionBanner */
+
+#sectionBanner{
+        background-size: cover;
+        background-position: center;
+    }
+}
