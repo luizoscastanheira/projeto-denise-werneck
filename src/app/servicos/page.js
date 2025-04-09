@@ -1,9 +1,8 @@
 import estilos from "./servicos.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
-import { TbMassage } from "react-icons/tb";
-import { GiVineLeaf } from "react-icons/gi";
-import { FaHandHoldingWater } from "react-icons/fa";
+import eCapilar from "../../../public/eCapilar01.jpg";
 
 export default function Servicos(){
   return(
@@ -17,9 +16,21 @@ export default function Servicos(){
             <section id={estilos.sectionProcedimentos}>
               <div className={estilos.card}>
                 <h3>Estética Capilar</h3>
-                <div>
-                  <div></div>
-                  <div></div>
+                <div className={estilos.boxCardInterno}>
+                  <Image src={eCapilar} className={estilos.imgProcedimentos} alt="Imagem de um cabelo bem feito"/>
+                  <div>
+                    <ul className={estilos.lista}>
+                      <li className={estilos.itemLista}>Aplicação Coloração</li>
+                      <li className={estilos.itemLista}>Corte</li>
+                      <li className={estilos.itemLista}>Escova</li>
+                      <li className={estilos.itemLista}>Escova com Prancha</li>
+                      <li className={estilos.itemLista}>Hidratação</li>
+                      <li className={estilos.itemLista}>Higienização</li>
+                      <li className={estilos.itemLista}>Nutrição</li>
+                      <li className={estilos.itemLista}>Progressiva</li>
+                      <li className={estilos.itemLista}>Reconstrução</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <div className={estilos.card}>

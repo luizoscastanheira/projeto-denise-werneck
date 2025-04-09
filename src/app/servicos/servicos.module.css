@@ -25,7 +25,7 @@
 
 #sectionProcedimentos {
     width: 100%;
-    background-color: #F8bbd0;
+    background-color: #FFFF;
 
     display: flex;
     flex-direction: column;
@@ -39,15 +39,42 @@
 
 .card{
     border: black 1px solid;
-    width: 90%;
-
+    border-radius: 15px;
+    width: 95%;
+    padding: 10px;
+    
     & h3{
-        font-size: 18px;
+        font-size: 32px;
+        line-height: 80px;
         color: #FFFF;
         background-color: #c2185b;
         text-align: center;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        margin-bottom: 5px;
     }
     
+}
+
+.boxCardInterno{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Estilizando as imagens da seção procedimentos */
+
+.imgProcedimentos{
+    width: 50%;
+    height: auto;
+}
+
+.lista{
+    margin-left: 20px;
+}
+
+.itemLista{
+
 }
 
 /* Estilizando a sectionFaixaServicos */
@@ -83,6 +110,7 @@
 }
 
 
+
 /* Área de Responsividade */
 
 /* Smartphones menores */
@@ -91,7 +119,6 @@
     /* Estilizando a sectionBanner */
 
 #sectionBanner{
-        background-size: cover;
         background-position: center;
     }
 }
