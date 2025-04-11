@@ -16,6 +16,10 @@ export default function Servicos(){
             <section id={estilos.sectionProcedimentos}>
               <div className={estilos.card}>
                 <h3>Estética Capilar</h3>
+                <p>
+                  <span>Transformando Beleza em Confiança - </span> A estética capilar é a arte e a ciência dedicadas ao cuidado, tratamento e embelezamento dos cabelos. Mais do que simples procedimentos cosméticos, ela envolve uma abordagem holística que considera a saúde do couro cabeludo, a estrutura dos fios e as necessidades individuais de cada pessoa.
+                </p>
+                
                 <div className={estilos.boxCardInterno}>
                   <Image src={eCapilar} className={estilos.imgProcedimentos} alt="Imagem de um cabelo bem feito"/>
                   <div>
@@ -30,6 +34,7 @@ export default function Servicos(){
                       <li className={estilos.itemLista}>Progressiva</li>
                       <li className={estilos.itemLista}>Reconstrução</li>
                     </ul>
+                    <div className={estilos.boxLink}><Link href="/contato" className={estilos.linkAgendar}>Agendar Meu Atendimento</Link></div>
                   </div>
                 </div>
               </div>
@@ -40,10 +45,7 @@ export default function Servicos(){
                 <h3>Estética Corporal</h3>
               </div>
             </section>
-
-            <section id={estilos.sectionFaixaServicos}>
-                <Link href="/contato" className={estilos.linkFaixaServicos}>Fale Comigo - Agende</Link>
-            </section>
+        
 
     </section>
   );

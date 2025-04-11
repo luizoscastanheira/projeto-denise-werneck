@@ -51,15 +51,33 @@
         text-align: center;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
-        margin-bottom: 5px;
+        margin-bottom: 15px;
+    }
+    & p{
+        font-size: 18px;
+        margin-bottom: 15px;
+        padding: 10px;
+        background-color: #F8BBD0;
+        color: #000;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
     }
     
 }
-
 .boxCardInterno{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 30px;
+    justify-content: space-around;
+    & div{
+        
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        justify-content:space-around;
+        
+        
+    }
 }
 
 /* Estilizando as imagens da seção procedimentos */
@@ -69,33 +87,22 @@
     height: auto;
 }
 
+
 .lista{
     margin-left: 20px;
 }
 
 .itemLista{
-
+    color: gray;
+    font-size: 24px;
 }
 
-/* Estilizando a sectionFaixaServicos */
-
-#sectionFaixaServicos{
-    width: 100%;
-    height: 30vh;
-    margin-top: 30px;
-           
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap:30px;
-    justify-content: center;
-
-    font-size: 24px;
-    text-align: center;
+.boxLink{
     
 }
 
-.linkFaixaServicos{
+.linkAgendar{
+    text-align: center;
     text-decoration: none;
     font-size: 28px;
     color: black;
@@ -111,14 +118,23 @@
 
 
 
+
 /* Área de Responsividade */
 
 /* Smartphones menores */
 @media (max-width: 480px) {
 
-    /* Estilizando a sectionBanner */
+/* Estilizando a sectionBanner */
 
 #sectionBanner{
         background-position: center;
     }
+
+/* Estilizando as imagens da seção procedimentos */
+
+    .imgProcedimentos{
+        flex-grow: 1;
+    }
+    
+
 }
