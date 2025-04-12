@@ -111,20 +111,17 @@
 }
 
 
-
-
-/* Área de Responsividade */
+/* ********************* Área de Responsividade ************************ */
 
 /* Smartphones menores */
 @media (max-width: 480px) {
 
-/* Estilizando a sectionBanner */
-
-#sectionBanner{
+    /* Estilizando a sectionBanner */
+    #sectionBanner{
         background-position: center;
     }
 
-/* Estilizando a Lista  */
+    /* Estilizando a Lista  */
     .lista{
         margin: 0 auto;
         max-width: 250px;
@@ -132,7 +129,6 @@
     .itemLista{
         font-size: 16px;
     }
-
     .boxCardInterno{
         gap: 30px;
     }
@@ -142,3 +138,104 @@
         flex-grow: 1;
     }
 }
+
+/* Dispositivos móveis (smartphones) em modo retrato */
+@media (max-width: 600px) {
+    /* Estilizando a sectionBanner */
+    #sectionBanner{
+        background-position: center;
+    }
+
+    /* Estilizando a Lista  */
+    .lista{
+        margin: 0 auto;
+        max-width: 250px;
+    }
+    .itemLista{
+        font-size: 16px;
+    }
+    .boxCardInterno{
+        gap: 30px;
+    }
+
+    /* Estilizando as imagens da seção procedimentos */
+    .imgProcedimentos{
+        flex-grow: 1;
+    }
+}
+
+/* Dispositivos móveis (smartphones) em modo paisagem */
+@media (min-width: 601px) and (max-width: 768px) {
+     /* Estilizando a sectionBanner */
+     #sectionBanner{
+        background-position: center;
+    }
+
+    /* Estilizando a Lista  */
+    .lista{
+        margin: 0 auto;
+        max-width: 250px;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    .itemLista{
+        font-size: 16px;
+    }
+    .boxCardInterno{
+        gap: 10px;
+        
+    }
+
+    /* Estilizando as imagens da seção procedimentos */
+    .imgProcedimentos{
+        width:250px;
+        height: 250px;
+    }
+
+    /* Estilizando o link de agendamento */
+    .linkAgendar{
+        font-size: 16px;
+        padding: 10px 10px;
+        
+    }
+
+  }
+
+/* Tablets e telas maiores */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Estilizando a sectionBanner */
+    #sectionBanner{
+        background-position: center;
+    }
+
+    /* Estilizando a Lista  */
+    .lista{
+        margin: 0 auto;
+        max-width: 250px;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    .itemLista{
+        font-size: 18px;
+    }
+    .boxCardInterno{
+        gap: 10px;
+        
+    }
+
+    /* Estilizando as imagens da seção procedimentos */
+    .imgProcedimentos{
+        flex-grow: 1;
+    }
+
+    /* Estilizando o link de agendamento */
+    .linkAgendar{
+        font-size: 20px;
+        padding: 20px 20px;
+        
+    }
+
+}
+  
