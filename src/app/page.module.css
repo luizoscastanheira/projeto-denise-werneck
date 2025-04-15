@@ -1,16 +1,13 @@
 /* Estilizando a sectionBanner */
-
 #sectionBanner{
     width: 100%;
     height: 100vh;
     background: url('../../public/bannerSorridenteV2.png') fixed ;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 #boxTextoBanner{
     font-size: 30px;
     width: 100%;
@@ -23,12 +20,10 @@
 /* Estilizando sectionFaixa */
 #sectionFaixa{
     width: 100%;
-    height: 100vh;
-        
+    height: 100vh;   
     display: flex;
     align-items: center;
     justify-content: center;
-
     font-size: 24px;
     text-align: center;
     text-shadow: 2px 2px #F8bbd0;
@@ -36,44 +31,35 @@
 
 
 /* Estilizando a sectionProcedimento*/
-
 #sectionProcedimentos {
     width: 100%;
     min-height: 100vh;
     background-color: #F8bbd0;
     padding: 30px;
-
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
     align-items: center;
-    
 }
 
 .iconProcedimentos{
     font-size: 50px;
 }
-
 .cardParagrafo{
     color: #808080;
 }
-
-
 .card{
-    
     background-color: #FFFF;
     width: 300px;
     height: 400px;
     padding: 20px;
     font-size: 18px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     gap: 10px;
-
     &:hover {
         cursor: pointer;
         color: #FFFF;
@@ -88,23 +74,19 @@
 }
 
 /* Estilizando a sectionFaixaServicos */
-
 #sectionFaixaServicos{
     width: 100%;
     height: 30vh;
     margin-top: 30px;
-           
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap:30px;
     justify-content: center;
-
     font-size: 24px;
     text-align: center;
     
 }
-
 .linkFaixaServicos{
     text-decoration: none;
     font-size: 28px;
@@ -119,80 +101,63 @@
     }
 }
 
-
 /* Estilizando a sectionBeneficios*/
-
 #sectionBeneficios{
     width: 100%;
     min-height: 150vh;
     padding: 100px 50px;
-
     line-height: 1.6;
-    
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-around;
     align-items: center;
-
     & h3 {
         font-size: 32px;
     }
-
     & h4{
         font-size: 24px;
         margin-top: 20px;
     }
-
     & p{
         font-size: 18px;
         color: #808080;
     }
 }
 
-
 .boxBeneficios{
     width: 400px;
     padding: 5px;
-
-    
     & li {
         list-style-type:upper-roman;
         font-size: 18px;
         color: #808080;
     }
 }
-
 .spanBeneficios{
     font-weight: bold;
 }
-
 .imgBeneficios{
     width: 100%;
     height: auto;
 }
 
-
 /* Estilizando a sectionFaleConosco*/
-
 #sectionFaleConosco{
     width: 100%;
     min-height: 100vh;
     padding: 50px;
     background-color: #c2185b;
     color: #FFFF;
-
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 30px;
     justify-content: space-around;
     align-items: center;
-    
     & h4{
         margin-bottom: 20px;
     }
-
     & p{
         font-size: 42px;
     }
@@ -203,7 +168,6 @@
     color: #FFFF;
     text-decoration: none;
 }
-
 .link{
     text-decoration: none;
     font-size: 32px;
@@ -219,31 +183,26 @@
     }
 }
 
-
 /* Área de Responsividade */
-
 /* Smartphones menores */
 @media (max-width: 480px) {
 
     /* Estilizando a sectionBanner */
-
-#sectionBanner{
-        background-size: cover;
+    #sectionBanner{
+        background-attachment: scroll;
         background-position: center;
     }
-
-    /* Estilizanso a sectionProcedimento*/
-
+    
+    /* Estilizando a sectionProcedimento*/
     #sectionProcedimentos {
         padding-top: 100px;
-        padding-bottom: 100px;
-        
+        padding-bottom: 100px;  
     }
-
+    
     /* Estilizando sectionFaixa */
     #sectionFaixa{
         font-size: 18px;
-    
+        height: 70vh;
     }
 
     /* Estilizando a sectionFaixaServicos */
@@ -254,7 +213,7 @@
 
     /* Estilizando a sectionFaleConosco*/
     #sectionFaleConosco{
-        gap: 50px;
+        gap: 20px;
         & p{
             font-size: 24px;
         }

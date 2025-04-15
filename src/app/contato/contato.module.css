@@ -106,8 +106,8 @@
 
     /* Estilizando a sectionBanner */
 
-#sectionBanner{
-        background-size: cover;
+    #sectionBanner{
+        background-attachment: scroll;
         background-position: center;
     }
 }

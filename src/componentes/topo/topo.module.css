@@ -1,23 +1,18 @@
 /* Estilizando o Topo */
-
 #topo{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
     align-items: center;
 }
-
 .imgLogo {
     height: 80px;
     width: auto;
     border-radius: 15px;
 }
-
 .navLink{
     display: flex;
-    
 }
-
 .linkTopo{
     padding: 30px;
     text-decoration: none;
@@ -26,15 +21,13 @@
 
     &:hover{
         background-color: #F06292;
-        color: white;
-        
+        color: white;       
     }
     &:focus{
         background-color: #F06292; 
         color: white;
     }
 }
-
 .telefone{
     text-decoration: none;
     font-size: 14px;
@@ -42,9 +35,7 @@
     color: purple;
 }
 
-
 /* Área de Responsividade */
-
 /* Smartphones menores */
 @media (max-width: 480px) {
     #topo{
@@ -53,17 +44,18 @@
         align-items: center;
         justify-content: center;
         gap: 2px;
-        margin-bottom: 50px;
-        
+        margin-bottom: 50px;    
+    }
+    .imgLogo {
+        height: 200px;
+                
     }
     .linkTopo{
         padding: 15px;
         font: 14px;
     }
-
     #boxTelefones{
         display: flex;
         gap: 20px;
     }
-
   }

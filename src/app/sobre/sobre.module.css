@@ -1,18 +1,14 @@
 /* Seção Banner */
-
-
 /* Estilizando o banner  */
 #sectionBanner{
     width: 100%;
     height: 70vh;
     background: url('../../../public/bannerRostoMassagem.png') fixed ;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 #boxTextoBanner{
     font-size: 30px;
     width: 100%;
@@ -21,7 +17,6 @@
     background-color: rgba(0,0,0, 0.2);
     padding: 30px;
 }
-
 .boxTexto{
     display: flex;
     justify-content: center;
@@ -55,7 +50,6 @@
 }
 
 /* Div textoSobre */
-
 #textoSobre{
     display: flex;
     flex-wrap: wrap;
@@ -65,9 +59,7 @@
 
 #imgBox{
     width: 397px;
-    
     }
-
 #boxTextoSobre{
     width: 450px;
     & h3{
@@ -88,8 +80,7 @@
 }
 
 /* Secão comoTrabalhamos */
-
-/* divComoTrabalhamos*/
+/* divComoTrabalhamos */
 #divComoTrabalhamos{
     width: 100%;
     padding: 50px;
@@ -107,7 +98,6 @@
 }
 
 /* boxCards */
-
 #boxCards{
     width: 100%;
     display: flex;
@@ -116,7 +106,6 @@
     align-items: center;
     gap: 30px;
 }
-
 .card{
     display: flex;
     flex-direction: column;
@@ -124,7 +113,6 @@
     width: 400px;
     align-items: center;
     text-align: center;
-
     & h4 {
         font-weight: bold;
         font-size: 18px;
@@ -132,31 +120,23 @@
     }
     
 }
-
 .icon{
-    font-size: 100px;
-    
+    font-size: 100px;  
 }
 
-
 /* Estilizando a sectionFaixaServicos */
-
 #sectionFaixaServicos{
     width: 100%;
     height: 30vh;
-    margin-top: 30px;
-           
+    margin-top: 30px;   
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap:30px;
     justify-content: center;
-
     font-size: 24px;
-    text-align: center;
-    
+    text-align: center; 
 }
-
 .linkFaixaServicos{
     text-decoration: none;
     font-size: 28px;
@@ -171,69 +151,55 @@
     }
 }
 
-
-
 /* Área de Responsividade */
-
 /* Smartphones menores */
 @media (max-width: 480px) {
     /* Estilizando o banner  */
-    #sectionBanner{
-        
+    #sectionBanner{  
+        background-attachment: scroll;
         background-position: center;
-
     }
-
     .boxTexto{
-        
         & h1 {
             font-size: 35px;
         }
     }
     /* Div bannerTexto  */
     #bannerTexto{
-    
         & h2 {
             font-size: 25px;
         }
-
         & p{
             font-size: 14px;
             color: gray;
         }
     }
-
     #imgBox{
         width: 300px;
         height: auto;
-        
     }
-
     #boxTextoSobre{
         width: 300px;
         & h3{
             font-size: 20px;
         }
-        
     }
-
     .card{
         gap:10px;
         width: 300px;
         justify-content: center;
         align-items: center;
-        
         & h4 {
-            
             font-size: 14px;
             padding: 10px;
         }
-        
     }
-    
     .icon{
         font-size: 50px;
-        
     }
-
+    /* Estilizando a sectionFaixaServicos */
+    #sectionFaixaServicos{
+        height: 40vh;
+        margin-bottom: 30px;   
+    }
 }

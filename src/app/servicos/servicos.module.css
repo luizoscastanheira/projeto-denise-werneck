@@ -118,6 +118,7 @@
 
     /* Estilizando a sectionBanner */
     #sectionBanner{
+        background-attachment: scroll;
         background-position: center;
     }
 

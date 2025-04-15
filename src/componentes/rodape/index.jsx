@@ -1,16 +1,15 @@
+// Importando Estilos
 import estilos from './rodape.module.css';
-
+// Importando Recursos
 import Image from 'next/image';
 import Link from 'next/link';
-
 // Importando Imagem
 import Logo from '../../../public/logotipo.jpg';
-
+// Importando icones
 import { LiaPhoneVolumeSolid } from "react-icons/lia";
 import { GrMapLocation } from "react-icons/gr";
 import { CgInstagram } from "react-icons/cg";
 import { PiWhatsappLogoDuotone } from "react-icons/pi";
-import { PiFacebookLogoDuotone } from "react-icons/pi";
 
 export default function Rodape(){
     return(
@@ -38,8 +37,7 @@ export default function Rodape(){
                         <GrMapLocation className={estilos.icons}/>
                         <p>
                             Rua Lincoln de Almeida Peçanha, 204 - Sala1 - Vila ISabel - Três Rios - RJ (
-                                No mini Shopping Vila Nova - ao lado da Praça Arsonval Macedo.
-                            )
+                            No mini Shopping Vila Nova - ao lado da Praça Arsonval Macedo.).
                         </p>
                      </div>
                      <div>
@@ -50,14 +48,10 @@ export default function Rodape(){
                 </div>
                 <div className={estilos.card}>
                     <h4>Siga-nos</h4>
-
                     <a target='_blank' href='https://www.instagram.com/espaco_denisewerneck?igsh=MWE1bzFseDIzaHV6Mg== '><CgInstagram className={estilos.icons}/></a>
                     <a target='_blank' href='https://api.whatsapp.com/send?phone=5524988222441&text=Ol%C3%A1!%20deixe%20sua%20mensagem%20em%20te%20respondo%20assim%20que%20poss%C3%ADvel.'><PiWhatsappLogoDuotone className={estilos.icons} /></a>
-
                 </div>
             </section>
-
-            
             <p id={estilos.copy}>Copyright © 2025 - Todos os direitos reservados</p>
         </footer>
     );
