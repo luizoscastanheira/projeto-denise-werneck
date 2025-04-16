@@ -16,7 +16,7 @@ export default function Servicos(){
             </section>
 
             <section id={estilos.sectionProcedimentos}>
-              <div className={estilos.card}>
+              <div id="esteticaCapilar" className={estilos.card}>
                 <h3>Estética Capilar</h3>
                 <p>
                   <span>Transformando Beleza em Confiança - </span> A estética capilar é a arte e a ciência dedicadas ao cuidado, tratamento e embelezamento dos cabelos. Mais do que simples procedimentos cosméticos, ela envolve uma abordagem holística que considera a saúde do couro cabeludo, a estrutura dos fios e as necessidades individuais de cada pessoa.
@@ -40,7 +40,7 @@ export default function Servicos(){
                   </div>
                 </div>
               </div>
-              <div className={estilos.card}>
+              <div id="esteticaFacial" className={estilos.card}>
                 <h3>Estética Facial</h3>
                 <p>
                   <span>Realçando a Beleza Natural - </span> A estética facial é uma disciplina dedicada ao cuidado e aprimoramento da pele do rosto, visando realçar a beleza natural de cada indivíduo. Combinando técnicas avançadas e produtos de alta qualidade, buscamos proporcionar uma experiência única de bem-estar e rejuvenescimento.
@@ -63,7 +63,7 @@ export default function Servicos(){
                   </div>
                 </div>
               </div>
-              <div className={estilos.card}>
+              <div id="esteticaCorporal" className={estilos.card}>
                 <h3>Estética Coporal</h3>
                 <p>
                   <span>Cuidando do Corpo, Elevando a Alma - </span> A estética corporal é uma área dedicada ao cuidado e aprimoramento da aparência e saúde do corpo. Combinando técnicas avançadas e produtos de alta qualidade, buscamos proporcionar uma experiência transformadora que vai além da beleza superficial.

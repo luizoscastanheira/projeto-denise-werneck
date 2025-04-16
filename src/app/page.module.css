@@ -29,7 +29,6 @@
     text-shadow: 2px 2px #F8bbd0;
 }
 
-
 /* Estilizando a sectionProcedimento*/
 #sectionProcedimentos {
     width: 100%;
@@ -71,6 +70,11 @@
             color: #FFFF;
         }
     }
+}
+
+.cardLink{
+    text-decoration: none;
+    color: black;
 }
 
 /* Estilizando a sectionFaixaServicos */
@@ -161,9 +165,7 @@
     & p{
         font-size: 42px;
     }
-    
 }
-
 .linkFaleConosco{
     color: #FFFF;
     text-decoration: none;
@@ -220,7 +222,7 @@
     }
 
     .link{
-        font-size: 24px;
-        padding: 25px 50px;
+        font-size: 18px;
+        padding: 15px 30px;
     }
 }
