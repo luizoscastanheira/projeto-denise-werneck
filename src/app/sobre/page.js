@@ -1,13 +1,13 @@
+// Importando Estilos
+import estilos from './sobre.module.css';
+// Importando recursos
 import Image from 'next/image';
 import Link from 'next/link';
-
-import estilos from './sobre.module.css';
-
+// Importando Imagens
 import fotoSobre from '../../../public/fotoSobre.png';
-
+// Importando icones
 import { LuCalendarClock } from "react-icons/lu";
 import { TbHeartHandshake } from "react-icons/tb";
-
 
 export default function Sobre(){
     return(

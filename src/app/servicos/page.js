@@ -1,7 +1,9 @@
+// Importando estilos
 import estilos from "./servicos.module.css";
+// Importando recursos
 import Link from "next/link";
 import Image from "next/image";
-
+// Importando imagens
 import eCapilar from "../../../public/eCapilar01.jpg";
 import eFacial from "../../../public/eFacial01.jpg";
 import eCorporal from "../../../public/eCorporal01.jpg";
@@ -55,7 +57,7 @@ export default function Servicos(){
                       <li className={estilos.itemLista}>Limpeza de Pele</li>
                       <li className={estilos.itemLista}>Microagulhamento</li>
                       <li className={estilos.itemLista}>Micropigmentação Labial</li>
-                      <li className={estilos.itemLista}>Micropigmento Fia a Fio</li>
+                      <li className={estilos.itemLista}>Micropigmentação Fio a Fio</li>
                       <li className={estilos.itemLista}>Micropuntura (Tratamento de Rugas, estrias e Marcas de Acne)</li>
                       <li className={estilos.itemLista}>Reflexologia</li>
                     </ul>
@@ -77,7 +79,7 @@ export default function Servicos(){
                       <li className={estilos.itemLista}>Vanho de Lua</li>
                       <li className={estilos.itemLista}>Depilação Corporal</li>
                       <li className={estilos.itemLista}>Massagem de Drenagem Linfática (Pré e Pós Operatório)</li>
-                      <li className={estilos.itemLista}>Masssagem Modeladora</li>
+                      <li className={estilos.itemLista}>Massagem Modeladora</li>
                       <li className={estilos.itemLista}>Massagem Pantala</li>
                       <li className={estilos.itemLista}>Massagem Relaxante</li>
                       <li className={estilos.itemLista}>SPA dos Pés</li>

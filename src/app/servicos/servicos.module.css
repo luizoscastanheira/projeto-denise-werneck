@@ -22,7 +22,6 @@
 }
 
 /* Estilizando a sectionProcedimentos*/
-
 #sectionProcedimentos {
     width: 100%;
     background-color: #FFFF;
@@ -78,12 +77,10 @@
 }
 
 /* Estilizando as imagens da seção procedimentos */
-
 .imgProcedimentos{
     width: 50%;
     height: auto;
 }
-
 
 .lista{
     max-width: 380px;
@@ -109,7 +106,6 @@
         box-shadow: 5px 5px 10px rgb(102, 43, 43);
     }
 }
-
 
 /* ********************* Área de Responsividade ************************ */
 
