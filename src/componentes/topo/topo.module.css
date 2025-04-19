@@ -39,7 +39,6 @@
 /* Smartphones menores */
 @media (max-width: 480px) {
     #topo{
-        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -47,7 +46,7 @@
         margin-bottom: 50px;    
     }
     .imgLogo {
-        height: 200px;
+        height: 150px;
                 
     }
     .linkTopo{
@@ -59,3 +58,28 @@
         gap: 20px;
     }
   }
+
+  /* Dispositivos móveis (smartphones) em modo retrato */
+@media (max-width: 600px) {
+    #topo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        margin-bottom: 50px;    
+    }
+    .imgLogo {
+        height: 150px;
+                
+    }
+}
+
+/* Dispositivos móveis (smartphones) em modo paisagem */
+@media (min-width: 601px) and (max-width: 768px) {
+    /* Futura atualização */
+}
+
+/* Tablets e telas maiores */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Futura atualização */
+}

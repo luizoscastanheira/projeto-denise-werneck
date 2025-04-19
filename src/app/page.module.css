@@ -185,7 +185,7 @@
     }
 }
 
-/* Área de Responsividade */
+/* ***************** Área de Responsividade ************************* */
 /* Smartphones menores */
 @media (max-width: 480px) {
 
@@ -203,7 +203,7 @@
     
     /* Estilizando sectionFaixa */
     #sectionFaixa{
-        font-size: 18px;
+        font-size: 16px;
         height: 70vh;
     }
 
@@ -215,6 +215,7 @@
 
     /* Estilizando a sectionFaleConosco*/
     #sectionFaleConosco{
+        min-height: 70vh;
         gap: 20px;
         & p{
             font-size: 24px;
@@ -225,4 +226,27 @@
         font-size: 18px;
         padding: 15px 30px;
     }
+}
+
+/* Dispositivos móveis (smartphones) em modo retrato */
+@media (max-width: 600px) {
+    /* Estilizando a sectionFaleConosco*/
+    .link{
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+}
+
+/* Dispositivos móveis (smartphones) em modo paisagem */
+@media (min-width: 601px) and (max-width: 768px) {
+    /* Estilizando a sectionFaleConosco*/
+    .link{
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+}
+
+/* Tablets e telas maiores */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Futura atualização */
 }
