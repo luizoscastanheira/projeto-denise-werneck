@@ -21,7 +21,6 @@
     padding: 30px;
 }
 
-
 #boxBase{
     padding: 50px;
 
@@ -105,9 +104,35 @@
 @media (max-width: 480px) {
 
     /* Estilizando a sectionBanner */
-
     #sectionBanner{
         background-attachment: scroll;
         background-position: center;
     }
+    .mapa{
+        width: 400px;
+    }
 }
+
+/* Dispositivos móveis (smartphones) em modo retrato */
+@media (max-width: 600px) {
+    /* Estilizando a sectionBanner */
+    #sectionBanner{
+        background-attachment: scroll;
+        background-position: center;
+    }
+    .mapa{
+        width: 400px;
+    }
+}
+
+/* Dispositivos móveis (smartphones) em modo paisagem */
+@media (min-width: 601px) and (max-width: 768px) {
+    /* Estilizando a sectionBanner */
+    #sectionBanner{
+        background-attachment: scroll;
+        background-position: center;
+    }
+    .mapa{
+        width: 400px;
+    }
+ }
